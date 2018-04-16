@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/NintendoLink/config-repo
+          username: 18705192873@163.com
+          password: aiyaya1314
+#          可以把远程仓库(配置文件的仓库)拉到本地的路径
+#          basedir:
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
